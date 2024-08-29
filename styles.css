@@ -1,40 +1,47 @@
 #Container{
-    height: 500px;
+    height: 800px;
     width: 100%;
     background-color: purple;
-    margin-bottom: 10px ;
-    margin-right: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
    
 }
 #HeadContainer{
     height: 150px;
     width: 100%;
-    background-color: aqua;
-    margin-bottom: 10px ;
-    margin-right: 10px;
+    background-color: aqua;  
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 
 #SecondContainer{
-    height: 100px;
-    width: 400px;
+    height: 150px;
+    width: 80%;
     background-color: powderblue;
-    margin-bottom: 10px ;
-    margin-right: 10px;
+    margin-left: 5px;
+  
 }
 
 .Boxes{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     background-color: grey;
-    margin-bottom: 10px ;
-    margin-right: 10px;   
+    margin-bottom: 5px ;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: flex;
+   
 }
 
 #ThirdContainer{
-    height: 100px;
+    height: 300px;
     width: 200px;
     background-color: steelblue;
+   
+   
+  
+   
 }
