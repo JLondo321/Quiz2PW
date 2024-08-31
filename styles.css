@@ -2,9 +2,7 @@ body {
   font-family: 'Great Vibes', cursive; 
   overflow: hidden; 
   background: linear-gradient(to top, #a9a9a9, #808080, #696969, #4b4b4b);
-
-
-
+}
 #Container {
     display: flex;
     flex-direction: column;
@@ -54,4 +52,3 @@ body {
     height: 460px;
     background: linear-gradient(to bottom,#e1bee7, #ce93d8, #ba68c8);
   }
-}
