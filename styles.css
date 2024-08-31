@@ -1,3 +1,10 @@
+body {
+  font-family: 'Great Vibes', cursive; 
+  overflow: hidden; 
+  background: linear-gradient(to top, #a9a9a9, #808080, #696969, #4b4b4b);
+
+
+
 #Container {
     display: flex;
     flex-direction: column;
@@ -7,15 +14,18 @@
   #HeadContainer {
     height: 150px;
     width: 100%;
-    background-color: aqua;
+    background: linear-gradient(to right,#e1bee7, #ce93d8, #ba68c8);
+
+
     margin: 5px 0;
     box-sizing: border-box;
+    
   }
   
   #SecondContainer {
     height: 200px;
     width: 79%;
-    background-color: powderblue;
+    background: linear-gradient(to left,#e1bee7, #ce93d8, #ba68c8);
     margin: 5px 0;
     box-sizing: border-box;
   }
@@ -29,18 +39,19 @@
   .Boxes {
     height: 350px;
     width: 25.6%; 
-    background-color: #d65d16;
-    margin-right: 17.5px;
+    background: linear-gradient(to left,#e1bee7, #ce93d8, #ba68c8);
+    margin-right: 15.5px;
     margin-top: 5px;
+    margin-bottom: 5px; 
     box-sizing: border-box;
   }
   
   #SideContainer {
     position: absolute;
-    bottom: 55px;
+    bottom: 1px;
     right: 9px; 
     width: 20%;
-    height: 560px;
-    background-color: gray;
-    margin-bottom: 5px; 
+    height: 460px;
+    background: linear-gradient(to bottom,#e1bee7, #ce93d8, #ba68c8);
   }
+}
