@@ -1,49 +1,47 @@
-
-#Container{
-    height: 800px;
-    width: 100%;
-    background-color: purple;
+#Container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   
-}
-#HeadContainer{
+    flex-direction: column;
+    height: 100%; 
+  }
+  
+  #HeadContainer {
     height: 150px;
     width: 100%;
-    background-color: aqua;  
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#SecondContainer{
-    height: 200px;
-    width: 76%;
-    background-color: powderblue;
-    margin-left: 5px;
+    background-color: aqua;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
   
-}
-
-.Boxes{
-    height: 300px;
-    width: 300PX;
-    background-color: #808080;
-    margin-right: 5px;
-    margin-left: 5px;
+  #SecondContainer {
+    height: 200px;
+    width: 79%;
+    background-color: powderblue;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  #ContentRow {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .Boxes {
+    height: 350px;
+    width: 25.6%; 
+    background-color: #d65d16;
+    margin-right: 17.5px;
     margin-top: 5px;
-    margin-bottom: 5px;
-    display: flex;
-   
-   
-}
-
-#Box{
-    height: 550px;
-    width: 22.9%;
-    background-color: azure;
-    margin-bottom: 5px ;
-    margin-left: 5px;
-    display: flex;
-}
+ 
+    box-sizing: border-box;
+  }
+  
+  #SideContainer {
+    position: absolute;
+    bottom: 55px;
+    right: 9px; 
+    width: 20%;
+    height: 560px;
+    background-color: gray;
+    margin-bottom: 5px; 
+  }
